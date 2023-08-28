@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and nth child pseudo selectors</title>
+    <style>
+        .container{
+            width: 50%;
+            margin:auto;
+        }
+        input[type='text']{
+            display: block;
+            background-color: bisque;
+            color:rgb(251, 19, 7);
+        }
+        .item{
+            display:block;
+        }
+        a[target]{
+            color: rgb(0, 233, 50);
+            width:30%;
+            margin:10px 350px;
+        }
+        a[target='_self']{
+            color: blue;
+        }
+        li:nth-child(3){
+            color:rgb(252, 11, 136)
+        }
+        li:nth-child(2n){
+            color:aquamarine
+        }
+        li:nth-child(2n+1){
+            color:deeppink;
+        }
+        li:nth-child(odd){
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h3><a href="http://www.google.com" target="_blank">Go to Google</a> </h3>
+    <h3><a href="http://www.facebook.com" target="_self">Go to Facebook</a> </h3>
+    <form action="backend.php" class="container"><br>
+        <input type="text" placeholder="Enter your name"><br>
+        <input type="password" placeholder="Enter your password"><br>
+        <input type="submit" placeholder="Submit"><br>
+    </form>
+    <ol type="disc">
+        <li class="item" id="item-1">Item 1</li>
+        <li class="item" id="item-2">Item 2</li>
+        <li class="item" id="item-3">Item 3</li>
+        <li class="item" id="item-4">Item 4</li>
+        <li class="item" id="item-5">Item 5</li>
+        <li class="item" id="item-6">Item 6</li>
+        <li class="item" id="item-7">Item 7</li>
+        <li class="item" id="item-8">Item 8</li>
+        <li class="item" id="item-9">Item 9</li>
+        <li class="item" id="item-610">Item 10</li>
+    </ol>
+</body>
+</html>

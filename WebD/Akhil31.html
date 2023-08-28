@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCS Transform</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .container{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: burlywood;
+            height:80vh; 
+        }
+        #box{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: brown;
+            border: 4px solid black;
+            height:300px;
+            width:300px;
+            transition: all 1s ease-in-out;
+        }
+        #box:hover{
+            /* transform: rotate(360deg); */
+            /* transform: skew(45deg); */
+            /* transform:scale(1.2); */
+            transform: translateX(130px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box">
+            This is my box
+        </div>
+    </div>
+</body>
+</html>
