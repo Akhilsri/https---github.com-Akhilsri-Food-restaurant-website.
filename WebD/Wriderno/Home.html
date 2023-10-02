@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wriderno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat+Subrayada&family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@700&family=Dancing+Script:wght@700&family=Montserrat+Subrayada&family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@700&family=Dancing+Script:wght@700&family=Montserrat+Subrayada&family=Oswald:wght@500&family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@700&family=Dancing+Script:wght@700&family=Kanit&family=Libre+Baskerville:ital@1&family=Montserrat+Subrayada&family=Oswald:wght@500&family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        nav ul{
+            width: 100%;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            display: inline-flex;
+            text-decoration: none;
+            list-style: none;
+            background-color: rgb(115, 55, 115);
+            color: white;
+            
+        }
+        nav ul button{
+            padding:10px 60px;
+            color: white;
+            background-color: rgb(115, 55, 115);
+            font-size: 18px;
+            font-family: 'Montserrat Subrayada', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            border:none;
+        }
+        button:hover{
+            text-decoration: underline;
+            color: pink;
+            
+        }
+        .firstsection{
+            margin:40px 0px;
+            height:390px;
+            width:100%;
+        }
+
+        .leftsection{
+            font-family: 'Cinzel', serif;
+            font-size: 90px;
+            color:  #452072;
+            margin:0px 30px;
+            display: inline-block;
+        }
+        .feel{
+            font-size: 30px;
+            margin: 0px 38px;
+            color: rgb(95, 6, 178);
+        }
+        .rightsection img{
+            height:500px;
+            border-radius: 20px;
+            width:580px;
+            border: 3px solid rgb(193, 14, 229);
+            float:right;
+            margin:-140px 60px;
+            transition-property: all;
+            transition-duration:1s;
+            transition-timing-function: ease-out;
+        }
+        .feel{
+            display: inline-block;
+        }
+        .coming{
+            margin:10px 10px;
+            padding:10px 30px;
+            font-size: 50px;
+            font-family: 'Allura', cursive;
+            color: rgb(249, 147, 4);
+        }
+        .second{
+            background-color: rgb(212, 203, 212);
+        }
+        .features{
+            margin: 0px;
+            padding:0px;
+        }
+        .product{
+            position: relative;
+            left:550px;
+            padding:20px;
+            font-size: 35px;;
+            color:rgb(70, 1, 135);
+            text-decoration: underline;
+        }
+        .key{
+            font-size: 30px;
+            padding:15px 20px;
+            color:rgb(1, 1, 113)
+        }
+        .leftfeatures{
+            font-family: 'Libre Baskerville', serif;
+            padding:10px 50px;
+            font-size: 30px;
+        }
+        .third{
+            background-color: rgb(255, 255, 255);
+            height:500px;
+            width:100;
+        }
+        .FAQ{
+            position:relative;
+            text-decoration: underline;
+            left:520px;
+            font-size: 30px;
+            color: #452072;
+            padding: 18px 10px;
+            font-weight: bold;
+        }
+        .Question{
+            font-size: 24px;
+            font-weight: bold;
+            margin:20px 5px;
+        }
+        .answer{
+            font-size: 20px;
+            /* font-weight: bold; */
+        }
+    </style>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <button id="changeContent">Home</button>
+                <button id="changeContent1">About Us</button>
+                <script src="script1.js"></script>
+                <button id="changeContent0">Vision</button>
+                <script src="script0.js"></script>
+                <button id="change-content">Blog</button>
+                <button id="changeContent2">Contact us</button>
+                <script src="script2.js"></script>
+            </ul>
+        </nav>
+    </header>
+    <section class="firstsection">
+        <div class="leftsection">Wriderno
+        </div><br>
+        <div class="feel">
+        <span id="element"></span>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Let\'s', 'Feel the Digital Paper !'],
+              typeSpeed: 55,
+            });
+          </script>
+          </div>
+        <div class="rightsection"><img src="https://media.wired.com/photos/5f48138ab6e85fb3c6989e25/master/w_1920,c_limit/Gear-Press-render---Hero-transparent.jpg" alt=""></div>
+    </section><hr>
+    <section class="coming">
+        <div>Coming Soon...</div>
+    </section><hr>
+    <section class="second">
+        <div class="features">
+        <h1 class="product">Product Features</h1>
+
+        <h2 class="key">Key Features :-</h2>
+        <ul class="leftfeatures">
+            <li>Paper-like writing and reading</li>
+            <li>Take handwritten notes, read and review documents</li>
+            <li>All your notes organised and accessible on all devices</li>
+            <li>2 Weeks of Battery life</li>
+        </ul>
+    
+        <h2 class="key">Additional Features :-</h2>
+        <ul class="leftfeatures">
+            <li>Take notes directly on PDFS</li>
+            <li>Integrate with Google Drive, Dropbox and Microsoft Onedrive</li>
+        </ul>
+
+    </section>
+    <section class="third">
+        <div class="FAQ"> Frequently Asked Questions</div>
+        <div>
+            <ul>
+                <li class="Question">Q1. How does E-Ink Technology Work ?</li>
+                <p class="answer">E Ink technology operates by controlling charged particles in tiny microcapsules within a display. Applying electrical charges to these particles causes them to move, creating a visual pattern that represents text and images. E Ink displays are reflective, like traditional paper, using ambient light for visibility. They are known for their exceptional readability in various lighting conditions and are highly energy-efficient, requiring power only when the content changes. This technology's paper-like appearance, low power consumption, and persistent display make it ideal for e-readers and other devices where readability and long battery life are essential.
+                </p>
+                <li class="Question">Q2. How does an E Ink tablet differ from a regular tablet?</li>
+                <p class="answer">E Ink tablets use E Ink displays, which are highly readable in bright sunlight, consume very little power, and resemble printed text on paper. Regular tablets typically have backlit LCD or OLED displays and are designed for various multimedia tasks.</p>
+                <li class="Question">Q3. Are E Ink tablets compatible with e-book formats?</li>
+                <p class="answer">Yes, E Ink tablets support popular e-book formats like ePub, PDF, and MOBI, making them compatible with a wide range of digital books and documents.Yes, E Ink tablets support popular e-book formats like ePub, PDF, and MOBI, making them compatible with a wide range of digital books and documents.</p>
+            </ul>
+        </div>
+    </section>
+    </body>
+</body>
+</html>
